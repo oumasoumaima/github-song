@@ -60,6 +60,13 @@
                 "url":"./assets/audio/TomOdell.mp4"
             },
             {
+                "img":"./assets/imgs/Adele1.png",
+                "label":"Fire To The Rain",
+                "author":"Adele",
+                "genre":"Ambiente",
+                "url":"./assets/audio/AdeleFire.mp4"
+            },
+            {
                 "img":"./assets/imgs/Ludovico.png",
                 "label":"Una Mattina",
                 "author":"Ludovico",
