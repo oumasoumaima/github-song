@@ -1,0 +1,12 @@
+.horizontal-scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.popular{
+    margin-bottom: 100px;
+}
+.w3-card-4{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}

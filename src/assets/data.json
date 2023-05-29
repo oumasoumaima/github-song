@@ -1,0 +1,118 @@
+[
+    {
+        "name":"Top Songs",
+        "list":
+        [
+            {
+                "img":"./assets/imgs/Adele1.png",
+                "label":"Easy On me",
+                "author":"Adele",
+                "genre":"Ambiente",
+                "url":"./assets/audio/Easy.mp4"
+            },
+            {
+                "img":"./assets/imgs/TomOdelle.png",
+                "label":"Another Love",
+                "author":"Tom Odelle",
+                "genre":"Ambiente",
+                "url":"./assets/audio/TomOdell.mp4"
+            },
+            {
+                "img":"./assets/imgs/HipHop.png",
+                "label":"Old Town Road",
+                "author":"Lil Nas X",
+                "genre":"Hip Hop",
+                "url":"./assets/audio/OldTownRoad.mp4"
+            },
+            {
+                "img":"./assets/imgs/Blues.png",
+                "label":"The Sky is Crying",
+                "author":"Coleman",
+                "genre":"Blues",
+                "url":"./assets/audio/Coleman.mp4"
+            }
+
+        ]
+    },
+    {
+        "name":"Popular Songs",
+        "list":
+        [
+            {
+                "img":"./assets/imgs/Ayra Starr.png",
+                "label":"Rush",
+                "author":"Ayra Starr",
+                "genre":"Afrobeats",
+                "url":"./assets/audio/AyraStarr Rush.mp4"
+            },
+            {
+                "img":"./assets/imgs/SamiYusuf.png",
+                "label":"The Meeting",
+                "author":"Sami Yusuf",
+                "genre":" Islamique Moderne",
+                "url":"./assets/audio/SamiYusuf.mp4"
+            },
+             {
+                "img":"./assets/imgs/TomOdelle.png",
+                "label":"Another Love",
+                "author":"Tom Odelle",
+                "genre":"Ambiente",
+                "url":"./assets/audio/TomOdell.mp4"
+            },
+            {
+                "img":"./assets/imgs/Ludovico.png",
+                "label":"Una Mattina",
+                "author":"Ludovico",
+                "genre":"Classique",
+                "url":"./assets/audio/UnaMattina.mp4"
+            }
+           
+            
+        ]
+
+    },
+    {
+        "name":"Hit Songs",
+        "list":
+        [
+            {
+                "img":"./assets/imgs/Charlie.png",
+                "label":"We D'ont Talk Anymore",
+                "author":"Charlie Puth",
+                "genre":"Ambiente",
+                "url":"./assets/audio/Charlie.mp4"
+            },
+            {
+                "img":"./assets/imgs/Mawlana.png",
+                "label":"Mawlana",
+                "author":"Sami Yusuf",
+                "genre":"Islamique Moderne",
+                "url":"./assets/audio/Mawlana.mp4"
+            },
+            {
+                "img":"./assets/imgs/David.png",
+                "label":"Say My Name",
+                "author":"David Gueta",
+                "genre":"Hip Hop",
+                "url":"./assets/audio/David.mp4"
+            },
+            {
+                "img":"./assets/imgs/HipHop.png",
+                "label":"Hip Hop",
+                "author":"Yosi Levi",
+                "genre":"Hip Hop",
+                "url":"./assets/audio/Hiphop.mp4"
+            },
+            {
+                "img":"./assets/imgs/Blues.png",
+                "label":"The Sky is Crying",
+                "author":"Coleman",
+                "genre":"Blues",
+                "url":"./assets/audio/Coleman.mp4"
+            }
+           
+            
+        ]
+
+    }
+]

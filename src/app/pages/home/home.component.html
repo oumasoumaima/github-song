@@ -1,0 +1,85 @@
+<div *ngFor="let cat of songsData | async">
+    <h1>{{cat.name}}</h1>
+    <div class="horizontal-scroll">
+        <div *ngFor="let song of cat.list" class="w3-card-4">
+            <img [src]="song.img  ||'./assets/imgs/Adele1.jpg'" alt="alps" style="width:100%;height:200px;" >
+            <div class="w3-container w3-center">
+                <p>{{song.label}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--
+    
+    <h1>Recent Songs</h1>
+    <div class="horizontal-scroll">
+        <div class="w3-card-4">
+            <img src="./assets/imgs/HipHop.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+        </div>
+        <div class="w3-card-4">
+            <img src="./assets/imgs/Jazz.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+        </div>
+        <div class="w3-card-4">
+            <img src="./assets/imgs/TomOdelle.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+        </div>
+        <div class="w3-card-4">
+            <img src="./assets/imgs/Adele2.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+        </div>
+        <div class="w3-card-4">
+            <img src="./assets/imgs/Ludovico.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+        </div>
+    </div>
+    
+    <h1>Popular Songs</h1>
+    <div class="horizontal-scroll">
+        <div class="popular">
+            <div class="w3-card-4">
+                <img src="./assets/imgs/Blues2.jpg" alt="alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>Sample Song Title</p>
+            </div>
+            </div>
+            <div class="w3-card-4">
+                <img src="./assets/imgs/jazz2.jpg" alt="alps" style="width:100%">
+                <div class="w3-container w3-center">
+                    <p>Sample Song Title</p>
+                </div>
+            </div>
+            <div class="w3-card-4">
+                <img src="./assets/imgs/TomOdelle.jpg" alt="alps" style="width:100%">
+                <div class="w3-container w3-center">
+                    <p>Sample Song Title</p>
+                </div>
+            </div>
+            <div class="w3-card-4">
+                <img src="./assets/imgs/Adele1.jpg" alt="alps" style="width:100%">
+                <div class="w3-container w3-center">
+                    <p>Sample Song Title</p>
+                </div>
+            </div>
+            <div class="w3-card-4">
+                <img src="./assets/imgs/Ludovico2.jpg" alt="alps" style="width:100%">
+                <div class="w3-container w3-center">
+                    <p>Sample Song Title</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    -->

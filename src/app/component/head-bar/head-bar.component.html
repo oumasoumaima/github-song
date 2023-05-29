@@ -1,0 +1,43 @@
+<div class="head">
+  <div class="w3-top">
+    <div class="w3-bar w3-light-grey nav-bar">
+      <div class="w3-bar-item logo"><b>MyMusik</b></div>
+      <a href="/home" class="w3-bar-item w3-button">Home</a>
+      <a href="/about" class="w3-bar-item w3-button">About Us</a>
+      <div class="w3-dropdown-hover w3-mobile" id="dropdown">
+        <button class="w3-button" (click)="toggleGenreDropdown()"> <i class="fa fa-caret-down">Genre</i></button>
+        <div *ngIf="isGenreDropdownOpen" class="w3-dropdown-content w3-bar-block w3-dark-grey" id="dropdown-content">
+          <a *ngFor="let genre of genres" class="w3-bar-item w3-button w3-mobile" (click)="setSelectedGenre(genre)">{{ genre.name }}</a>
+        </div>
+      </div>
+      <a href="/admin" class="w3-bar-item w3-button w3-right">Admin</a>
+      <a href="/login" class="w3-bar-item w3-button w3-right">Login</a>
+      <a href="/signup" class="w3-bar-item w3-button w3-right">Signup</a>
+    </div>
+  </div>
+  <div class="content">
+    <div *ngIf="songs.length > 0">
+      <div *ngIf="selectedGenre">
+        <h2>{{ selectedGenre }}</h2>
+        <div class="song-list">
+          <div *ngFor="let song of songs" class="song-item">
+            <div class="song-details">
+              <div class="image-container media-container" id="contour">
+                <img [src]="song.img" alt="{{ song.label }}" class="small-image">
+              </div>
+              <div class="song-info">
+                <p><b>Name Song :</b> {{ song.label }}</p>
+                <p><b>Author :</b> {{ song.author }}</p>
+                <p><b>Type :</b> <u>{{ song.genre }}</u></p>
+              </div>
+            </div>
+            <audio controls class="audio-element media-container">
+              <source [src]="song.url" type="audio/mp4">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
